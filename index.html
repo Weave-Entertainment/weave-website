@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goblin.studio</title>
+    <style>
+        /* Center the content vertically and horizontally */
+        body {
+            display: flex;
+            justify-content: center; /* Horizontal centering */
+            align-items: center;     /* Vertical centering */
+            height: 100vh;           /* Full viewport height */
+            margin: 0;               /* Remove default margins */
+            background-color: #FAFAFC; /* Optional: Light background for visibility */
+        }
+
+        /* Group for images: stacked vertically and centered within itself */
+        .image-group {
+            display: flex;
+            flex-direction: column;  /* Stack images vertically */
+            align-items: center;     /* Center images horizontally within the group */
+            gap: 20px;               /* Space between images */
+            padding: 20px;           /* Optional: Padding around the group */
+        }
+
+        /* Style for images: responsive sizing */
+        .image-group img {
+            max-width: 320px;        /* Adjust width as needed */
+            height: auto;            /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-group">
+        <img src="logo.png" alt="logo">
+        <img src="font.png" alt="font">
+    </div>
+</body>
+</html>
